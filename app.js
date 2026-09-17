@@ -1,4 +1,7 @@
 const app = Vue.createApp({
+  template: `
+    <p>{{ message }}</p>
+  `,
   data() {
     return {
       currentUserInput: '',
